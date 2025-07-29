@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tezkor-paybot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: "8060654578:AAE9W1Z7Rxqvpn527YLNJ-r9VbrjYaQHUlU"
+      - key: ADMIN_ID
+        value: "8060654578"
